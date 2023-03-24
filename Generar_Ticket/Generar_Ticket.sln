@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33214.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vista", "Generar_Ticket\Vista.csproj", "{FE81C757-42A0-4BDE-8325-F7C7611AF38B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{5643F65B-E598-4607-A4BF-335443CF5B64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datos", "Datos\Datos.csproj", "{6053B1BD-9470-4C93-A125-C4D0F2C24172}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE81C757-42A0-4BDE-8325-F7C7611AF38B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE81C757-42A0-4BDE-8325-F7C7611AF38B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE81C757-42A0-4BDE-8325-F7C7611AF38B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE81C757-42A0-4BDE-8325-F7C7611AF38B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5643F65B-E598-4607-A4BF-335443CF5B64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5643F65B-E598-4607-A4BF-335443CF5B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5643F65B-E598-4607-A4BF-335443CF5B64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5643F65B-E598-4607-A4BF-335443CF5B64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6053B1BD-9470-4C93-A125-C4D0F2C24172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6053B1BD-9470-4C93-A125-C4D0F2C24172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6053B1BD-9470-4C93-A125-C4D0F2C24172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6053B1BD-9470-4C93-A125-C4D0F2C24172}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23CAAFAB-83B9-40FD-89E9-CE360B43FAB7}
+	EndGlobalSection
+EndGlobal
