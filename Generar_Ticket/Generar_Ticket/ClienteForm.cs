@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Generar_Ticket
 {
-    public partial class SoporteForm : Form
+    public partial class ClienteForm : Form
     {
-        public SoporteForm()
+        public ClienteForm()
         {
             InitializeComponent();
         }

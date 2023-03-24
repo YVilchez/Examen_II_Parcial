@@ -27,7 +27,7 @@ namespace Generar_Ticket
 
         private void SoporteToolStripButton_Click(object sender, EventArgs e)
         {
-            SoporteForm soporteForm = new SoporteForm();
+            ClienteForm soporteForm = new ClienteForm();
             soporteForm.MdiParent = this;
             soporteForm.Show();
         }

@@ -64,7 +64,7 @@ namespace Generar_Ticket
             this.UsuariosDataGridView.Location = new System.Drawing.Point(9, 341);
             this.UsuariosDataGridView.Name = "UsuariosDataGridView";
             this.UsuariosDataGridView.RowHeadersWidth = 62;
-            this.UsuariosDataGridView.Size = new System.Drawing.Size(895, 236);
+            this.UsuariosDataGridView.Size = new System.Drawing.Size(1131, 236);
             this.UsuariosDataGridView.TabIndex = 39;
             // 
             // CancelarButton
@@ -123,7 +123,7 @@ namespace Generar_Ticket
             // 
             this.AdjuntarFotoButton.Enabled = false;
             this.AdjuntarFotoButton.Image = global::Generar_Ticket.Properties.Resources.reconocimiento_facial;
-            this.AdjuntarFotoButton.Location = new System.Drawing.Point(721, 178);
+            this.AdjuntarFotoButton.Location = new System.Drawing.Point(707, 222);
             this.AdjuntarFotoButton.Name = "AdjuntarFotoButton";
             this.AdjuntarFotoButton.Size = new System.Drawing.Size(55, 51);
             this.AdjuntarFotoButton.TabIndex = 33;
@@ -133,9 +133,9 @@ namespace Generar_Ticket
             // FotoPictureBox
             // 
             this.FotoPictureBox.BackColor = System.Drawing.Color.White;
-            this.FotoPictureBox.Location = new System.Drawing.Point(477, 51);
+            this.FotoPictureBox.Location = new System.Drawing.Point(476, 29);
             this.FotoPictureBox.Name = "FotoPictureBox";
-            this.FotoPictureBox.Size = new System.Drawing.Size(238, 178);
+            this.FotoPictureBox.Size = new System.Drawing.Size(205, 244);
             this.FotoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.FotoPictureBox.TabIndex = 32;
             this.FotoPictureBox.TabStop = false;
@@ -144,7 +144,7 @@ namespace Generar_Ticket
             // 
             this.EstaActivoCheckBox.AutoSize = true;
             this.EstaActivoCheckBox.Enabled = false;
-            this.EstaActivoCheckBox.Location = new System.Drawing.Point(155, 260);
+            this.EstaActivoCheckBox.Location = new System.Drawing.Point(154, 238);
             this.EstaActivoCheckBox.Name = "EstaActivoCheckBox";
             this.EstaActivoCheckBox.Size = new System.Drawing.Size(22, 21);
             this.EstaActivoCheckBox.TabIndex = 31;
@@ -154,7 +154,7 @@ namespace Generar_Ticket
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(27, 261);
+            this.label6.Location = new System.Drawing.Point(26, 239);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(117, 22);
             this.label6.TabIndex = 30;
@@ -168,7 +168,7 @@ namespace Generar_Ticket
             this.RolComboBox.Items.AddRange(new object[] {
             "Administrador",
             "Usuario"});
-            this.RolComboBox.Location = new System.Drawing.Point(155, 205);
+            this.RolComboBox.Location = new System.Drawing.Point(154, 183);
             this.RolComboBox.Name = "RolComboBox";
             this.RolComboBox.Size = new System.Drawing.Size(302, 28);
             this.RolComboBox.TabIndex = 29;
@@ -177,7 +177,7 @@ namespace Generar_Ticket
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(27, 214);
+            this.label5.Location = new System.Drawing.Point(26, 192);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(47, 22);
             this.label5.TabIndex = 28;
@@ -186,7 +186,7 @@ namespace Generar_Ticket
             // CorreoTextBox
             // 
             this.CorreoTextBox.Enabled = false;
-            this.CorreoTextBox.Location = new System.Drawing.Point(155, 167);
+            this.CorreoTextBox.Location = new System.Drawing.Point(154, 145);
             this.CorreoTextBox.Name = "CorreoTextBox";
             this.CorreoTextBox.Size = new System.Drawing.Size(302, 26);
             this.CorreoTextBox.TabIndex = 27;
@@ -195,7 +195,7 @@ namespace Generar_Ticket
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(27, 168);
+            this.label4.Location = new System.Drawing.Point(26, 146);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(80, 22);
             this.label4.TabIndex = 26;
@@ -204,7 +204,7 @@ namespace Generar_Ticket
             // ContraseñaTextBox
             // 
             this.ContraseñaTextBox.Enabled = false;
-            this.ContraseñaTextBox.Location = new System.Drawing.Point(155, 129);
+            this.ContraseñaTextBox.Location = new System.Drawing.Point(154, 107);
             this.ContraseñaTextBox.Name = "ContraseñaTextBox";
             this.ContraseñaTextBox.PasswordChar = '*';
             this.ContraseñaTextBox.Size = new System.Drawing.Size(302, 26);
@@ -214,7 +214,7 @@ namespace Generar_Ticket
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(27, 130);
+            this.label3.Location = new System.Drawing.Point(26, 108);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(121, 22);
             this.label3.TabIndex = 24;
@@ -223,7 +223,7 @@ namespace Generar_Ticket
             // NombreTextBox
             // 
             this.NombreTextBox.Enabled = false;
-            this.NombreTextBox.Location = new System.Drawing.Point(155, 90);
+            this.NombreTextBox.Location = new System.Drawing.Point(154, 68);
             this.NombreTextBox.Name = "NombreTextBox";
             this.NombreTextBox.Size = new System.Drawing.Size(302, 26);
             this.NombreTextBox.TabIndex = 23;
@@ -232,7 +232,7 @@ namespace Generar_Ticket
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(27, 91);
+            this.label2.Location = new System.Drawing.Point(26, 69);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(90, 22);
             this.label2.TabIndex = 22;
@@ -241,7 +241,7 @@ namespace Generar_Ticket
             // CodigoTextBox
             // 
             this.CodigoTextBox.Enabled = false;
-            this.CodigoTextBox.Location = new System.Drawing.Point(155, 51);
+            this.CodigoTextBox.Location = new System.Drawing.Point(154, 29);
             this.CodigoTextBox.Name = "CodigoTextBox";
             this.CodigoTextBox.Size = new System.Drawing.Size(302, 26);
             this.CodigoTextBox.TabIndex = 21;
@@ -250,7 +250,7 @@ namespace Generar_Ticket
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(27, 52);
+            this.label1.Location = new System.Drawing.Point(26, 30);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(80, 22);
             this.label1.TabIndex = 20;
@@ -265,7 +265,7 @@ namespace Generar_Ticket
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.ClientSize = new System.Drawing.Size(913, 582);
+            this.ClientSize = new System.Drawing.Size(1149, 582);
             this.Controls.Add(this.UsuariosDataGridView);
             this.Controls.Add(this.CancelarButton);
             this.Controls.Add(this.EliminarButton);
