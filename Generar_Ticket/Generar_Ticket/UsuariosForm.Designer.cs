@@ -61,7 +61,7 @@ namespace Generar_Ticket
             this.UsuariosDataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.UsuariosDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.UsuariosDataGridView.Location = new System.Drawing.Point(9, 341);
+            this.UsuariosDataGridView.Location = new System.Drawing.Point(-12, 461);
             this.UsuariosDataGridView.Name = "UsuariosDataGridView";
             this.UsuariosDataGridView.RowHeadersWidth = 62;
             this.UsuariosDataGridView.Size = new System.Drawing.Size(1131, 236);

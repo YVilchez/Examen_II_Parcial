@@ -70,7 +70,7 @@ namespace Generar_Ticket
 
         private void Usuarios_Load(object sender, EventArgs e)
         {
-
+            TraerUsuarios();
         }
 
         private void CancelarButton_Click(object sender, EventArgs e)

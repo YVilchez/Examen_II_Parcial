@@ -29,6 +29,7 @@ namespace Generar_Ticket
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label7 = new System.Windows.Forms.Label();
             this.DireccionTextBox = new System.Windows.Forms.TextBox();
@@ -49,7 +50,9 @@ namespace Generar_Ticket
             this.label2 = new System.Windows.Forms.Label();
             this.IdentidadTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.ClienteDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // dateTimePicker1
@@ -107,6 +110,7 @@ namespace Generar_Ticket
             this.CancelarButton.TabIndex = 58;
             this.CancelarButton.Text = "Cancelar";
             this.CancelarButton.UseVisualStyleBackColor = true;
+            this.CancelarButton.Click += new System.EventHandler(this.CancelarButton_Click);
             // 
             // EliminarButton
             // 
@@ -116,6 +120,7 @@ namespace Generar_Ticket
             this.EliminarButton.TabIndex = 57;
             this.EliminarButton.Text = "Eliminar";
             this.EliminarButton.UseVisualStyleBackColor = true;
+            this.EliminarButton.Click += new System.EventHandler(this.EliminarButton_Click);
             // 
             // GuardarButton
             // 
@@ -126,6 +131,7 @@ namespace Generar_Ticket
             this.GuardarButton.TabIndex = 56;
             this.GuardarButton.Text = "Guardar";
             this.GuardarButton.UseVisualStyleBackColor = true;
+            this.GuardarButton.Click += new System.EventHandler(this.GuardarButton_Click);
             // 
             // ModificarButton
             // 
@@ -135,6 +141,7 @@ namespace Generar_Ticket
             this.ModificarButton.TabIndex = 55;
             this.ModificarButton.Text = "Modificar";
             this.ModificarButton.UseVisualStyleBackColor = true;
+            this.ModificarButton.Click += new System.EventHandler(this.ModificarButton_Click);
             // 
             // NuevoButton
             // 
@@ -144,6 +151,7 @@ namespace Generar_Ticket
             this.NuevoButton.TabIndex = 54;
             this.NuevoButton.Text = "Nuevo";
             this.NuevoButton.UseVisualStyleBackColor = true;
+            this.NuevoButton.Click += new System.EventHandler(this.NuevoButton_Click);
             // 
             // EstaActivoCheckBox
             // 
@@ -237,6 +245,10 @@ namespace Generar_Ticket
             this.label1.TabIndex = 44;
             this.label1.Text = "Identidad:";
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // ClienteForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -265,7 +277,9 @@ namespace Generar_Ticket
             this.Controls.Add(this.label1);
             this.Name = "ClienteForm";
             this.Text = "SoporteForm";
+            this.Load += new System.EventHandler(this.ClienteForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ClienteDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -293,5 +307,6 @@ namespace Generar_Ticket
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox IdentidadTextBox;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }
