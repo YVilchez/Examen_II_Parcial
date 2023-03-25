@@ -40,10 +40,10 @@ namespace Generar_Ticket
             // ClientesDataGridView
             // 
             this.ClientesDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.ClientesDataGridView.Location = new System.Drawing.Point(36, 198);
+            this.ClientesDataGridView.Location = new System.Drawing.Point(-7, 198);
             this.ClientesDataGridView.Name = "ClientesDataGridView";
             this.ClientesDataGridView.RowHeadersWidth = 62;
-            this.ClientesDataGridView.Size = new System.Drawing.Size(788, 245);
+            this.ClientesDataGridView.Size = new System.Drawing.Size(845, 263);
             this.ClientesDataGridView.TabIndex = 9;
             // 
             // CancelarButton
@@ -78,9 +78,10 @@ namespace Generar_Ticket
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(87, 59);
+            this.label1.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(77, 60);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 20);
+            this.label1.Size = new System.Drawing.Size(97, 22);
             this.label1.TabIndex = 5;
             this.label1.Text = "Nombre:";
             // 
@@ -88,7 +89,7 @@ namespace Generar_Ticket
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(861, 498);
+            this.ClientSize = new System.Drawing.Size(833, 455);
             this.Controls.Add(this.ClientesDataGridView);
             this.Controls.Add(this.CancelarButton);
             this.Controls.Add(this.AceptarButton);

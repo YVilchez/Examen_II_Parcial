@@ -29,16 +29,15 @@ namespace Generar_Ticket
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.ribbonControlAdv1 = new Syncfusion.Windows.Forms.Tools.RibbonControlAdv();
             this.toolStripTabItem1 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx1 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
-            this.UsuarioToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripTabItem2 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx2 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
-            this.SoporteToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripTabItem3 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx3 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
+            this.UsuarioToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.SoporteToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.TickectToolStripButton = new System.Windows.Forms.ToolStripButton();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControlAdv1)).BeginInit();
             this.ribbonControlAdv1.SuspendLayout();
@@ -61,10 +60,10 @@ namespace Generar_Ticket
             this.ribbonControlAdv1.MenuButtonFont = new System.Drawing.Font("Segoe UI", 8.25F);
             this.ribbonControlAdv1.MenuButtonText = "";
             this.ribbonControlAdv1.MenuButtonWidth = 56;
-            this.ribbonControlAdv1.MenuColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.ribbonControlAdv1.MenuColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(114)))), ((int)(((byte)(198)))));
             this.ribbonControlAdv1.Name = "ribbonControlAdv1";
-            this.ribbonControlAdv1.Office2016ColorScheme = Syncfusion.Windows.Forms.Tools.Office2016ColorScheme.DarkGray;
-            this.ribbonControlAdv1.OfficeColorScheme = Syncfusion.Windows.Forms.Tools.ToolStripEx.ColorScheme.Managed;
+            this.ribbonControlAdv1.Office2013ColorScheme = Syncfusion.Windows.Forms.Tools.Office2013ColorScheme.DarkGray;
+            this.ribbonControlAdv1.OfficeColorScheme = Syncfusion.Windows.Forms.Tools.ToolStripEx.ColorScheme.Silver;
             // 
             // ribbonControlAdv1.OfficeMenu
             // 
@@ -77,13 +76,14 @@ namespace Generar_Ticket
             this.ribbonControlAdv1.RibbonStyle = Syncfusion.Windows.Forms.Tools.RibbonStyle.Office2016;
             this.ribbonControlAdv1.SelectedTab = this.toolStripTabItem3;
             this.ribbonControlAdv1.ShowRibbonDisplayOptionButton = true;
-            this.ribbonControlAdv1.Size = new System.Drawing.Size(1033, 215);
+            this.ribbonControlAdv1.Size = new System.Drawing.Size(1033, 257);
             this.ribbonControlAdv1.SystemText.QuickAccessDialogDropDownName = "Start menu";
             this.ribbonControlAdv1.SystemText.RenameDisplayLabelText = "&Display Name:";
             this.ribbonControlAdv1.TabIndex = 0;
             this.ribbonControlAdv1.Text = "ribbonControlAdv1";
             this.ribbonControlAdv1.ThemeName = "Office2016";
             this.ribbonControlAdv1.ThemeStyle.MoreCommandsStyle.PropertyGridViewBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.ribbonControlAdv1.TitleColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(59)))), ((int)(((byte)(59)))));
             // 
             // toolStripTabItem1
             // 
@@ -98,7 +98,7 @@ namespace Generar_Ticket
             this.toolStripTabItem1.Panel.TabIndex = 2;
             this.toolStripTabItem1.Panel.Text = "USUARIOS";
             this.toolStripTabItem1.Position = 0;
-            this.toolStripTabItem1.Size = new System.Drawing.Size(131, 52);
+            this.toolStripTabItem1.Size = new System.Drawing.Size(113, 28);
             this.toolStripTabItem1.Tag = "1";
             this.toolStripTabItem1.Text = "USUARIOS";
             // 
@@ -106,7 +106,7 @@ namespace Generar_Ticket
             // 
             this.toolStripEx1.Dock = System.Windows.Forms.DockStyle.None;
             this.toolStripEx1.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.toolStripEx1.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.toolStripEx1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(59)))), ((int)(((byte)(59)))));
             this.toolStripEx1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.toolStripEx1.Image = null;
             this.toolStripEx1.ImageScalingSize = new System.Drawing.Size(24, 24);
@@ -117,20 +117,8 @@ namespace Generar_Ticket
             this.toolStripEx1.Office12Mode = false;
             this.toolStripEx1.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
             this.toolStripEx1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.toolStripEx1.Size = new System.Drawing.Size(101, 110);
+            this.toolStripEx1.Size = new System.Drawing.Size(101, 152);
             this.toolStripEx1.TabIndex = 0;
-            // 
-            // UsuarioToolStripButton
-            // 
-            this.UsuarioToolStripButton.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UsuarioToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("UsuarioToolStripButton.Image")));
-            this.UsuarioToolStripButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.UsuarioToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.UsuarioToolStripButton.Name = "UsuarioToolStripButton";
-            this.UsuarioToolStripButton.Size = new System.Drawing.Size(92, 85);
-            this.UsuarioToolStripButton.Text = "Usuario";
-            this.UsuarioToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.UsuarioToolStripButton.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
             // toolStripTabItem2
             // 
@@ -145,7 +133,7 @@ namespace Generar_Ticket
             this.toolStripTabItem2.Panel.TabIndex = 3;
             this.toolStripTabItem2.Panel.Text = "SOPORTE TECNICO";
             this.toolStripTabItem2.Position = 1;
-            this.toolStripTabItem2.Size = new System.Drawing.Size(208, 52);
+            this.toolStripTabItem2.Size = new System.Drawing.Size(190, 28);
             this.toolStripTabItem2.Tag = "2";
             this.toolStripTabItem2.Text = "SOPORTE TECNICO";
             // 
@@ -153,7 +141,7 @@ namespace Generar_Ticket
             // 
             this.toolStripEx2.Dock = System.Windows.Forms.DockStyle.None;
             this.toolStripEx2.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.toolStripEx2.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.toolStripEx2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(59)))), ((int)(((byte)(59)))));
             this.toolStripEx2.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.toolStripEx2.Image = null;
             this.toolStripEx2.ImageScalingSize = new System.Drawing.Size(24, 24);
@@ -164,20 +152,8 @@ namespace Generar_Ticket
             this.toolStripEx2.Office12Mode = false;
             this.toolStripEx2.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
             this.toolStripEx2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.toolStripEx2.Size = new System.Drawing.Size(93, 110);
+            this.toolStripEx2.Size = new System.Drawing.Size(93, 152);
             this.toolStripEx2.TabIndex = 0;
-            // 
-            // SoporteToolStripButton
-            // 
-            this.SoporteToolStripButton.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SoporteToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("SoporteToolStripButton.Image")));
-            this.SoporteToolStripButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.SoporteToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.SoporteToolStripButton.Name = "SoporteToolStripButton";
-            this.SoporteToolStripButton.Size = new System.Drawing.Size(84, 85);
-            this.SoporteToolStripButton.Text = "Cliente";
-            this.SoporteToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.SoporteToolStripButton.Click += new System.EventHandler(this.SoporteToolStripButton_Click);
             // 
             // toolStripTabItem3
             // 
@@ -192,7 +168,7 @@ namespace Generar_Ticket
             this.toolStripTabItem3.Panel.TabIndex = 4;
             this.toolStripTabItem3.Panel.Text = "TICKETS";
             this.toolStripTabItem3.Position = 2;
-            this.toolStripTabItem3.Size = new System.Drawing.Size(112, 52);
+            this.toolStripTabItem3.Size = new System.Drawing.Size(94, 28);
             this.toolStripTabItem3.Tag = "3";
             this.toolStripTabItem3.Text = "TICKETS";
             // 
@@ -200,7 +176,7 @@ namespace Generar_Ticket
             // 
             this.toolStripEx3.Dock = System.Windows.Forms.DockStyle.None;
             this.toolStripEx3.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.toolStripEx3.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.toolStripEx3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(59)))), ((int)(((byte)(59)))));
             this.toolStripEx3.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.toolStripEx3.Image = null;
             this.toolStripEx3.ImageScalingSize = new System.Drawing.Size(24, 24);
@@ -211,13 +187,37 @@ namespace Generar_Ticket
             this.toolStripEx3.Office12Mode = false;
             this.toolStripEx3.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
             this.toolStripEx3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.toolStripEx3.Size = new System.Drawing.Size(84, 110);
+            this.toolStripEx3.Size = new System.Drawing.Size(84, 152);
             this.toolStripEx3.TabIndex = 0;
+            // 
+            // UsuarioToolStripButton
+            // 
+            this.UsuarioToolStripButton.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UsuarioToolStripButton.Image = global::Generar_Ticket.Properties.Resources.usuario__1_;
+            this.UsuarioToolStripButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.UsuarioToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.UsuarioToolStripButton.Name = "UsuarioToolStripButton";
+            this.UsuarioToolStripButton.Size = new System.Drawing.Size(92, 127);
+            this.UsuarioToolStripButton.Text = "Usuario";
+            this.UsuarioToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.UsuarioToolStripButton.Click += new System.EventHandler(this.toolStripButton1_Click);
+            // 
+            // SoporteToolStripButton
+            // 
+            this.SoporteToolStripButton.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SoporteToolStripButton.Image = global::Generar_Ticket.Properties.Resources.ordenador_portatil;
+            this.SoporteToolStripButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.SoporteToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.SoporteToolStripButton.Name = "SoporteToolStripButton";
+            this.SoporteToolStripButton.Size = new System.Drawing.Size(84, 127);
+            this.SoporteToolStripButton.Text = "Cliente";
+            this.SoporteToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.SoporteToolStripButton.Click += new System.EventHandler(this.SoporteToolStripButton_Click);
             // 
             // TickectToolStripButton
             // 
             this.TickectToolStripButton.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TickectToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("TickectToolStripButton.Image")));
+            this.TickectToolStripButton.Image = global::Generar_Ticket.Properties.Resources.reparar;
             this.TickectToolStripButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.TickectToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.TickectToolStripButton.Name = "TickectToolStripButton";

@@ -36,8 +36,6 @@ namespace Generar_Ticket
             this.GuardarButton = new System.Windows.Forms.Button();
             this.ModificarButton = new System.Windows.Forms.Button();
             this.NuevoButton = new System.Windows.Forms.Button();
-            this.AdjuntarFotoButton = new System.Windows.Forms.Button();
-            this.FotoPictureBox = new System.Windows.Forms.PictureBox();
             this.EstaActivoCheckBox = new System.Windows.Forms.CheckBox();
             this.label6 = new System.Windows.Forms.Label();
             this.RolComboBox = new System.Windows.Forms.ComboBox();
@@ -51,9 +49,11 @@ namespace Generar_Ticket
             this.CodigoTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.AdjuntarFotoButton = new System.Windows.Forms.Button();
+            this.FotoPictureBox = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.UsuariosDataGridView)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FotoPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FotoPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // UsuariosDataGridView
@@ -61,10 +61,10 @@ namespace Generar_Ticket
             this.UsuariosDataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.UsuariosDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.UsuariosDataGridView.Location = new System.Drawing.Point(-12, 461);
+            this.UsuariosDataGridView.Location = new System.Drawing.Point(-9, 341);
             this.UsuariosDataGridView.Name = "UsuariosDataGridView";
             this.UsuariosDataGridView.RowHeadersWidth = 62;
-            this.UsuariosDataGridView.Size = new System.Drawing.Size(1131, 236);
+            this.UsuariosDataGridView.Size = new System.Drawing.Size(1127, 327);
             this.UsuariosDataGridView.TabIndex = 39;
             // 
             // CancelarButton
@@ -118,27 +118,6 @@ namespace Generar_Ticket
             this.NuevoButton.Text = "Nuevo";
             this.NuevoButton.UseVisualStyleBackColor = true;
             this.NuevoButton.Click += new System.EventHandler(this.NuevoButton_Click_1);
-            // 
-            // AdjuntarFotoButton
-            // 
-            this.AdjuntarFotoButton.Enabled = false;
-            this.AdjuntarFotoButton.Image = global::Generar_Ticket.Properties.Resources.reconocimiento_facial;
-            this.AdjuntarFotoButton.Location = new System.Drawing.Point(707, 222);
-            this.AdjuntarFotoButton.Name = "AdjuntarFotoButton";
-            this.AdjuntarFotoButton.Size = new System.Drawing.Size(55, 51);
-            this.AdjuntarFotoButton.TabIndex = 33;
-            this.AdjuntarFotoButton.UseVisualStyleBackColor = true;
-            this.AdjuntarFotoButton.Click += new System.EventHandler(this.AdjuntarFotoButton_Click);
-            // 
-            // FotoPictureBox
-            // 
-            this.FotoPictureBox.BackColor = System.Drawing.Color.White;
-            this.FotoPictureBox.Location = new System.Drawing.Point(476, 29);
-            this.FotoPictureBox.Name = "FotoPictureBox";
-            this.FotoPictureBox.Size = new System.Drawing.Size(205, 244);
-            this.FotoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.FotoPictureBox.TabIndex = 32;
-            this.FotoPictureBox.TabStop = false;
             // 
             // EstaActivoCheckBox
             // 
@@ -260,12 +239,33 @@ namespace Generar_Ticket
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+            // AdjuntarFotoButton
+            // 
+            this.AdjuntarFotoButton.Enabled = false;
+            this.AdjuntarFotoButton.Image = global::Generar_Ticket.Properties.Resources.fotografia;
+            this.AdjuntarFotoButton.Location = new System.Drawing.Point(697, 210);
+            this.AdjuntarFotoButton.Name = "AdjuntarFotoButton";
+            this.AdjuntarFotoButton.Size = new System.Drawing.Size(55, 51);
+            this.AdjuntarFotoButton.TabIndex = 33;
+            this.AdjuntarFotoButton.UseVisualStyleBackColor = true;
+            this.AdjuntarFotoButton.Click += new System.EventHandler(this.AdjuntarFotoButton_Click);
+            // 
+            // FotoPictureBox
+            // 
+            this.FotoPictureBox.BackColor = System.Drawing.Color.White;
+            this.FotoPictureBox.Location = new System.Drawing.Point(476, 29);
+            this.FotoPictureBox.Name = "FotoPictureBox";
+            this.FotoPictureBox.Size = new System.Drawing.Size(205, 232);
+            this.FotoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.FotoPictureBox.TabIndex = 32;
+            this.FotoPictureBox.TabStop = false;
+            // 
             // UsuariosForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.ClientSize = new System.Drawing.Size(1149, 582);
+            this.ClientSize = new System.Drawing.Size(1110, 665);
             this.Controls.Add(this.UsuariosDataGridView);
             this.Controls.Add(this.CancelarButton);
             this.Controls.Add(this.EliminarButton);
@@ -290,8 +290,8 @@ namespace Generar_Ticket
             this.Text = "Usuarios";
             this.Load += new System.EventHandler(this.Usuarios_Load);
             ((System.ComponentModel.ISupportInitialize)(this.UsuariosDataGridView)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FotoPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FotoPictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

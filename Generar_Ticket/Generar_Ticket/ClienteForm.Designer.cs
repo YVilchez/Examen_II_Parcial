@@ -98,7 +98,7 @@ namespace Generar_Ticket
             this.ClienteDataGridView.Location = new System.Drawing.Point(0, 439);
             this.ClienteDataGridView.Name = "ClienteDataGridView";
             this.ClienteDataGridView.RowHeadersWidth = 62;
-            this.ClienteDataGridView.Size = new System.Drawing.Size(925, 155);
+            this.ClienteDataGridView.Size = new System.Drawing.Size(925, 227);
             this.ClienteDataGridView.TabIndex = 59;
             // 
             // CancelarButton
@@ -254,7 +254,7 @@ namespace Generar_Ticket
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.ClientSize = new System.Drawing.Size(918, 586);
+            this.ClientSize = new System.Drawing.Size(918, 658);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.DireccionTextBox);

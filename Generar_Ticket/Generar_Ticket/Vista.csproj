@@ -175,5 +175,41 @@
   <ItemGroup>
     <None Include="Resources\Fondo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1251486554-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zarla-doctor-pc-1x1-2400x2400-20220201-ty3kv4cjd3xqy3qq67pm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelarjj.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exito.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ordenador-portatil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reparar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1251486554-612x6121.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fotografia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

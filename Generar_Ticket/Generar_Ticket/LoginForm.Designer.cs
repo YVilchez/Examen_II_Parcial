@@ -30,7 +30,6 @@ namespace Generar_Ticket
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.MostrarContraseñaButton = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.CancelarButton = new System.Windows.Forms.Button();
@@ -47,11 +46,11 @@ namespace Generar_Ticket
             // MostrarContraseñaButton
             // 
             this.MostrarContraseñaButton.BackColor = System.Drawing.Color.Transparent;
-            this.MostrarContraseñaButton.ForeColor = System.Drawing.Color.Transparent;
-            this.MostrarContraseñaButton.Image = ((System.Drawing.Image)(resources.GetObject("MostrarContraseñaButton.Image")));
-            this.MostrarContraseñaButton.Location = new System.Drawing.Point(412, 102);
+            this.MostrarContraseñaButton.ForeColor = System.Drawing.Color.White;
+            this.MostrarContraseñaButton.Image = global::Generar_Ticket.Properties.Resources.tty;
+            this.MostrarContraseñaButton.Location = new System.Drawing.Point(412, 97);
             this.MostrarContraseñaButton.Name = "MostrarContraseñaButton";
-            this.MostrarContraseñaButton.Size = new System.Drawing.Size(46, 28);
+            this.MostrarContraseñaButton.Size = new System.Drawing.Size(52, 36);
             this.MostrarContraseñaButton.TabIndex = 6;
             this.MostrarContraseñaButton.UseVisualStyleBackColor = false;
             this.MostrarContraseñaButton.Click += new System.EventHandler(this.MostrarContraseñaButton_Click);
@@ -59,10 +58,10 @@ namespace Generar_Ticket
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(478, 12);
+            this.pictureBox1.Image = global::Generar_Ticket.Properties.Resources.zarla_doctor_pc_1x1_2400x2400_20220201_ty3kv4cjd3xqy3qq67pm;
+            this.pictureBox1.Location = new System.Drawing.Point(478, -6);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(217, 224);
+            this.pictureBox1.Size = new System.Drawing.Size(254, 276);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
@@ -71,7 +70,7 @@ namespace Generar_Ticket
             // 
             this.CancelarButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.CancelarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CancelarButton.Image = ((System.Drawing.Image)(resources.GetObject("CancelarButton.Image")));
+            this.CancelarButton.Image = global::Generar_Ticket.Properties.Resources.cancelarjj;
             this.CancelarButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.CancelarButton.Location = new System.Drawing.Point(283, 189);
             this.CancelarButton.Name = "CancelarButton";
@@ -85,7 +84,7 @@ namespace Generar_Ticket
             // AceptarButton
             // 
             this.AceptarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AceptarButton.Image = ((System.Drawing.Image)(resources.GetObject("AceptarButton.Image")));
+            this.AceptarButton.Image = global::Generar_Ticket.Properties.Resources.exito;
             this.AceptarButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.AceptarButton.Location = new System.Drawing.Point(59, 189);
             this.AceptarButton.Name = "AceptarButton";
@@ -114,20 +113,22 @@ namespace Generar_Ticket
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Verdana", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.BackColor = System.Drawing.Color.AliceBlue;
+            this.label2.Font = new System.Drawing.Font("Verdana", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(13, 102);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(163, 26);
+            this.label2.Size = new System.Drawing.Size(146, 26);
             this.label2.TabIndex = 2;
             this.label2.Text = "Contraseña:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Verdana", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.BackColor = System.Drawing.Color.AliceBlue;
+            this.label1.Font = new System.Drawing.Font("Verdana", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(13, 45);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(117, 26);
+            this.label1.Size = new System.Drawing.Size(104, 26);
             this.label1.TabIndex = 0;
             this.label1.Text = "Usuario:";
             // 
@@ -141,8 +142,9 @@ namespace Generar_Ticket
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.BackgroundImage = global::Generar_Ticket.Properties.Resources.istockphoto_1251486554_612x612;
             this.CancelButton = this.CancelarButton;
-            this.ClientSize = new System.Drawing.Size(744, 300);
+            this.ClientSize = new System.Drawing.Size(745, 318);
             this.ControlBox = false;
             this.Controls.Add(this.MostrarContraseñaButton);
             this.Controls.Add(this.pictureBox1);
